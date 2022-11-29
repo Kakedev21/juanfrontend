@@ -1,0 +1,1130 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Poppins;
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1% 2%;
+  background: transparent;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+nav ul li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #4e944f;
+  display: block;
+  margin: auto;
+  -webkit-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #4e944f;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/bacj.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bacj.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+main .main-container {
+  padding: 1% 2%;
+  margin-top: 100px;
+  position: relative;
+}
+
+main .main-container .main-row {
+  color: #fff;
+  margin-top: 100px;
+}
+
+main .main-container .main-row .main-col1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .main-container .main-row .main-col1 h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+main .main-container .main-row .main-col1 h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+main .main-container .main-row .main-col1 p {
+  width: 900px;
+  margin: 25px 0;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+}
+
+main .main-container .main-row .main-col1 button {
+  padding: 15px 12px;
+  background: transparent;
+  border: 2px solid #4e944f;
+  color: #4e944f;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+main .main-container .main-row .main-col1 button:hover {
+  background: #4e944f;
+  color: #fff;
+}
+
+main .main-container .main-col2 {
+  color: #fff;
+  position: absolute;
+  top: -50px;
+  right: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 20px;
+  width: 290px;
+  height: 160px;
+}
+
+main .main-container .main-col2 h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+main .main-container .main-col2 p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+main .Areas {
+  width: 100%;
+  height: 100vh;
+}
+
+main .Areas .aboutheader {
+  background-color: #4e944f;
+  width: 100%;
+  height: 250px;
+}
+
+main .Areas .aboutheader h1 {
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+main .Areas .area-container {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 75px;
+  padding: 1%;
+  position: relative;
+}
+
+main .Areas .area-container button {
+  border: none;
+  background: #fff;
+  color: #000;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+main .Areas .area-container button a {
+  text-decoration: none;
+  color: white;
+}
+
+main .Areas .area-container .item .item1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .Areas .area-container .item .item1 .item-1p p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+main .Areas .area-container .item .item1 .item1-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .Areas .area-container .item .item1 img {
+  width: 300px;
+}
+
+.explore {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+  color: white;
+}
+
+.explore h1 {
+  text-align: center;
+  font-size: 35px;
+  margin: 50px 0;
+  font-weight: 300;
+}
+
+.explore h1::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: #4e944f;
+  margin: 10px auto;
+}
+
+.explore .explore-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.explore .explore-container .card {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  border: 3px solid #4e944f;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.explore .explore-container .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.explore .explore-container .card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.explore .explore-container .card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.explore .explore-container .card p {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 150px;
+}
+
+.register .register-container {
+  width: 400px;
+  height: 450px;
+  background-color: #4e944f;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.register .register-container h3 {
+  color: #fff;
+  font-size: 25px;
+}
+
+.register .register-container h4 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 50px;
+}
+
+.register .register-container a {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.register .register-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register .register-container form input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  padding: 0 10px;
+  margin: 10px 0;
+  font-size: 18px;
+  color: #000;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+
+.register .register-container form input:focus {
+  border: 1px solid #4e944f;
+}
+
+.register .register-container form button {
+  border: none;
+  background: #fff;
+  color: #000;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  text-align: center;
+  width: 100px;
+}
+
+.booking {
+  width: 100%;
+  height: 100vh;
+  background-color: #dcdcdc;
+  position: relative;
+}
+
+.booking .backBookin {
+  width: 100%;
+  height: 50%;
+  background-image: url("../img/bacj.png");
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.booking .booking-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 80vh;
+}
+
+.booking .booking-container .bookin-form {
+  background-color: #fff;
+  width: 70%;
+  height: 40%;
+  position: absolute;
+  bottom: 70px;
+  padding: 30px;
+  border-radius: 13px;
+  position: relative;
+}
+
+.booking .booking-container .bookin-form .buttonsub {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+}
+
+.booking .booking-container .bookin-form .buttonsub button {
+  background-color: #4e944f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 7px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.booking .booking-container .bookin-form .formarea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.booking .booking-container .bookin-form .formarea .input1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.booking .booking-container .bookin-form .formarea .input1 input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.booking .booking-container .bookin-form .formarea .input2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.booking .booking-container .bookin-form .formarea .input2 input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.booking .booking-container .bookin-form .formarea input {
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  margin: 15px 15px;
+  outline: none;
+}
+
+.booking .booking-container .bookin-form .bookmid {
+  position: absolute;
+  top: -25px;
+  background-color: #4e944f;
+  padding: 10px;
+  color: #fff;
+  border-radius: 14px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 15px;
+}
+
+.bookingstatus {
+  width: 100%;
+  height: 300px;
+  background-color: #dcdcdc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bookingstatus .statusContainer {
+  width: 70%;
+  height: 300px;
+  background-color: #fff;
+  padding: 15px;
+  position: relative;
+  border-radius: 13px;
+  margin-bottom: 100px;
+}
+
+.bookingstatus .statusContainer .statusmid {
+  position: absolute;
+  top: -25px;
+  background-color: #4e944f;
+  padding: 10px;
+  color: #fff;
+  border-radius: 14px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 15px;
+}
+
+.admin-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1% 2%;
+}
+
+.admin-header button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #4e944f;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.adminLink {
+  width: 100%;
+  padding: 2% 6%;
+  background-color: #fff;
+}
+
+.adminLink .adminlink-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.adminLink .adminlink-container a {
+  margin: 0 15px;
+  padding: 10px 15px;
+  border: 1px solid #000;
+  text-decoration: none;
+  color: #000;
+  border-radius: 10px;
+}
+
+.admin {
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.admin-header {
+  background-color: #fff;
+}
+
+.adminContainer {
+  padding: 1%;
+}
+
+.adminContainer .dashboard-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.adminContainer .dashboard-row .col1 {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  margin-top: 15px;
+}
+
+.adminContainer .dashboard-row .col1 h2 {
+  margin: 8px 0;
+}
+
+.adminContainer .dashboard-row .col2 {
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+}
+
+.announcemt {
+  width: 100%;
+  height: 100vh;
+  padding: 2% 6%;
+  background-color: #fff;
+}
+
+.announcemt h2 {
+  margin-bottom: 50px;
+}
+
+.announcemt .announcement-container h3 {
+  margin-bottom: 30px;
+}
+
+.announcemt .announcement-box {
+  background-color: #f2f2f2;
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  padding: 15px;
+  word-wrap: break-word;
+}
+
+.announcemt .announcement-box h3 {
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.announcemt .announce-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.announcemt .announce-row .acol1 {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.announcemt .announce-row .acol1 button {
+  margin-top: 30px;
+}
+
+.announcemt .announce-row .a-col2 form {
+  gap: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.announcemt .announce-row .a-col2 form textarea {
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: #f2f2f2;
+}
+
+.log {
+  width: 100%;
+  height: 100vw;
+  padding: 1%;
+  background-color: #fff;
+}
+
+.log .log-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+.log .log-container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.log .log-container th,
+.log .log-container td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.log .log-container th {
+  background-color: #75c9fa;
+}
+
+.log .log-container td {
+  background-color: #cdebfd;
+}
+
+.log .log-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+.log .log-container form td:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.log .log-container form * {
+  font-size: 28px;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 800px;
+  height: 300px;
+  background-color: #fff;
+  padding: 1%;
+  border: 2px solid #4e944f;
+}
+
+.modal .modal-container button {
+  padding: 5px 15px;
+  background-color: #4e944f;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  position: absolute;
+  right: 25px;
+  bottom: 15px;
+  cursor: pointer;
+}
+
+.modal .modal-container h2 {
+  font-size: 17px;
+  text-align: center;
+}
+
+.about {
+  width: 90%;
+  padding: 30px;
+  margin: auto;
+  color: white;
+}
+
+.about .about-title {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.about .about-title h1 {
+  font-weight: 300;
+}
+
+.about .about-title h1::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background-color: #4e944f;
+  margin: 0 auto;
+}
+
+.about .mountain {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 50px;
+  width: 100%;
+}
+
+.about .mountain .mountain-desc {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.about .mountain .mountain-desc p {
+  margin-top: 20px;
+  font-size: 17px;
+  line-height: 28px;
+  word-wrap: break-word;
+  letter-spacing: 0.5px;
+}
+
+.about .mountain .mount-title {
+  background-color: #4e944f;
+  width: 100%;
+  padding: 5px;
+  color: #fff;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.about .mountain iframe {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  width: 100%;
+  height: 100%;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.peak-view {
+  margin: 100px 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.peak-view h1 {
+  margin-bottom: 50px;
+}
+
+.peak-view iframe {
+  width: 1000px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.Booknow {
+  margin-top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+
+.Booknow .bookcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #4e944f;
+  padding: 30px;
+  color: #fff;
+  width: 100%;
+}
+
+.Booknow .bookcontainer h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.Booknow .bookcontainer button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #4e944f;
+  border: 2px solid #4e944f;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.Booknow .bookcontainer button a {
+  color: #4e944f;
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #4e944f;
+  color: #fff;
+}
+
+footer .fa {
+  margin: 20px 15px;
+  font-size: 25px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 30px;
+}
+
+footer p {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.Services {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 100px;
+  color: white;
+}
+
+.Services button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #4e944f;
+  border: 2px solid #4e944f;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.Services button a {
+  color: #4e944f;
+  text-decoration: none;
+}
+
+.Services h1 {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.Services h1::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background-color: #4e944f;
+  margin: 0 auto;
+}
+
+.Services p {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.Services .service-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+}
+
+.Services .service-cards .service-card {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.Services .service-cards .service-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.Services .service-cards .service-card .layer {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: 0.3;
+  transition: 0.3;
+}
+
+.Services .service-cards .service-card .layer p {
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 16px;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.Services .service-cards .service-card .layer:hover {
+  background: #4e944f;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Services .service-cards .service-card .layer:hover p {
+  bottom: 49%;
+  opacity: 1;
+}
+
+#my-data {
+  width: 100%;
+  height: 100vh;
+}
+/*# sourceMappingURL=style.css.map */
